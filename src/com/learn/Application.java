@@ -9,11 +9,11 @@ import java.util.Scanner;
 public class Application {
     public static void main(String[] args) {
         MessageHandler messageHandler = new MessageHandler();
-        User user1 = new User("anuj");
+        User user1 = new User("sachin");
         messageHandler.registerUser(user1);
-        User user2 = new User("sanjay");
+        User user2 = new User("sehwag");
         messageHandler.registerUser(user2);
-        User user3 = new User("aashi");
+        User user3 = new User("ganguly");
         messageHandler.registerUser(user3);
 
         Scanner in = new Scanner(System.in);
